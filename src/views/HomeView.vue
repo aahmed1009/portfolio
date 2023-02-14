@@ -7,6 +7,7 @@
       <headerSection />
       <aboutSection />
       <projectSection />
+      <contactUs />
     </div>
   </div>
 </template>
@@ -15,6 +16,7 @@
 import headerSection from "../components/header.vue";
 import aboutSection from "../components/AboutUs.vue";
 import projectSection from "../components/PorjectSection.vue";
+import contactUs from "../components/ContactUs.vue";
 export default {
   name: "HomeView",
   data() {
@@ -26,6 +28,7 @@ export default {
     headerSection,
     aboutSection,
     projectSection,
+    contactUs,
   },
   methods: {
     showMode() {
