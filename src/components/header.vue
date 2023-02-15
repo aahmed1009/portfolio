@@ -46,6 +46,12 @@
 <script>
 export default {
   name: "headerSection",
+  data() {
+    return {};
+  },
+  methods: {
+    type() {},
+  },
 };
 </script>
 

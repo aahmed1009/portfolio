@@ -1,5 +1,5 @@
 <template>
-  <div class="ContactUs h-[800px]">
+  <div class="ContactUs min-h-[800px]">
     <div
       class="projects·h-96·bg-gradient-to-l·from-white·to-teal-200·rounded-2xl·px-6·py-2·dark:from-cyan-700·dark:to-cyan-900·dark:text-white·grid"
     >
@@ -12,12 +12,14 @@
         Contact
       </h1>
     </div>
-    <div class="from-content grid grid-cols-2-auto gap-20">
+    <div
+      class="from-content grid lg:grid-cols-2-auto md:grid-cols-1 max-sm:grid-cols-1 sm:mx-10 gap-20"
+    >
       <div
-        class="info-content text-center text-white font-bold capitalize space-y-10 w-fit"
+        class="info-content md:mx-auto sm:mx-auto text-center text-white font-bold capitalize space-y-10 w-fit"
       >
         <div
-          class="bg-cyan-900 rounded-lg w-[400px] p-6 space-y-3 text-xl shadow-xl h-44 shadow-stone-400 hover:bg-gradient-to-tr hover:bg-teal-700 hover: via-teal-500 hover:text-black"
+          class="dark:bg-cyan-900 bg-teal-300 text-black rounded-lg w-[400px] p-6 space-y-3 text-xl shadow-xl h-44 shadow-stone-400 hover:bg-gradient-to-tr hover:bg-teal-700 hover: via-teal-500 hover:text-black"
         >
           <ion-icon name="mail-outline"></ion-icon>
           <h2>email</h2>
@@ -25,7 +27,7 @@
           <button class="text-blue-400 font-bold">Send an email</button>
         </div>
         <div
-          class="bg-cyan-900 rounded-lg w-[400px] p-6 space-y-3 text-xl shadow-xl h-44 shadow-stone-400 hover:bg-gradient-to-tr hover:bg-teal-700 hover: via-teal-500 hover:text-black"
+          class="dark:bg-cyan-900 bg-teal-300 text-black rounded-lg w-[400px] p-6 space-y-3 text-xl shadow-xl h-44 shadow-stone-400 hover:bg-gradient-to-tr hover:bg-teal-700 hover: via-teal-500 hover:text-black"
         >
           <ion-icon name="logo-whatsapp"></ion-icon>
           <h2>WhatsApp</h2>
@@ -34,7 +36,7 @@
           <button class="text-blue-400 font-bold">Send a message</button>
         </div>
         <div
-          class="bg-cyan-900 hover:bg-gradient-to-tr hover:bg-teal-700 hover: via-teal-500 rounded-lg w-[400px] p-6 space-y-3 text-xl shadow-xl h-44 shadow-stone-400 hover:bg-gradient-to-tr hover:bg-teal-700 hover: via-teal-500 hover:text-black"
+          class="dark:bg-cyan-900 bg-teal-300 text-black hover:bg-gradient-to-tr hover:bg-teal-700 hover: via-teal-500 rounded-lg w-[400px] p-6 space-y-3 text-xl shadow-xl h-44 shadow-stone-400 hover:bg-gradient-to-tr hover:bg-teal-700 hover: via-teal-500 hover:text-black"
         >
           <ion-icon name="logo-linkedin"></ion-icon>
           <h2>Linkedin</h2>
