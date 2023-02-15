@@ -28,9 +28,10 @@
     <button
       class="text-xl text-white mt-2 p-1 rounded-full bg-gradient-to-r from-teal-400 via-teal-600 to-teal-800 w-36 h-11"
     >
-      <ion-icon name="chevron-down-outline" class="text-xl"></ion-icon>
+      <ion-icon name="chevron-down-outline" class="text-xl"> </ion-icon>
       Resume
     </button>
+
     <div
       class="image-container bg-teal-500 rounded-full mx-auto w-fit mt-12 mb-12"
     >
