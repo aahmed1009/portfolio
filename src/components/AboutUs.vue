@@ -10,7 +10,7 @@
         class="image md:block md:mx-auto sm:mx-auto max-sm:mx-auto dark:bg-teal-600 h-72 w-72 rounded-lg flex justify-center flex-wrap content-center"
       >
         <img
-          src="../assets/WhatsApp Image 2022-11-30 at 11.45.14 AM (6).jpeg"
+          src="../assets/images/WhatsApp Image 2022-11-30 at 11.45.14 AM (6).jpeg"
           alt="image-about"
           class="h-72 w-72 text-center rounded-lg rotate-6 transition duration-700 ease-in-out hover:rotate-0"
         />

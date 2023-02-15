@@ -1,194 +1,22 @@
 <template>
-  <div>
-    <div class="flex justify-center p-4">
-      <button
-        id="button"
-        data-modal-toggle="modal"
-        data-modal-target="modal"
-        type="button"
-        class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
-      >
-        Show modal
-      </button>
-    </div>
-
+  <div class="projects text-center dark:text-white pt-10 max-sm:mx-10 sm:mx-10">
+    <h1 class="font-bold">What I Do</h1>
+    <h1 class="text-5xl font-bold mb-12 text-teal-400">My Projects</h1>
     <div
-      id="modal"
-      tabindex="-1"
-      aria-hidden="true"
-      class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-modal md:h-full"
+      class="project-items p-12 grid lg:grid-cols-3 md:grid-cols-1 min-h-[400px] rounded-xl bg-gradient-to-tr bg-teal-600 via-teal-400 from-teal-200 dark:bg-gradient-to-tl dark:bg-teal-800 dark:via-teal-700 dark:from-teal-400"
     >
-      <div class="relative w-full h-full max-w-2xl md:h-auto">
-        <!-- Modal content -->
-        <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
-          <!-- Modal header -->
-          <div
-            class="flex items-start justify-between p-5 border-b rounded-t dark:border-gray-600"
-          >
-            <h3
-              class="text-xl font-semibold text-gray-900 lg:text-2xl dark:text-white"
-            >
-              Terms of Service
-            </h3>
-            <button
-              id="closeButton"
-              data-modal-hide="modal"
-              type="button"
-              class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white"
-            >
-              <svg
-                class="w-5 h-5"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-                  clip-rule="evenodd"
-                ></path>
-              </svg>
-            </button>
-          </div>
-          <!-- Modal body -->
-          <div class="p-6 space-y-6">
-            <p
-              class="text-base leading-relaxed text-gray-500 dark:text-gray-400"
-            >
-              With less than a month to go before the European Union enacts new
-              consumer privacy laws for its citizens, companies around the world
-              are updating their terms of service agreements to comply.
-            </p>
-            <p
-              class="text-base leading-relaxed text-gray-500 dark:text-gray-400"
-            >
-              The European Union’s General Data Protection Regulation (G.D.P.R.)
-              goes into effect on May 25 and is meant to ensure a common set of
-              data rights in the European Union. It requires organizations to
-              notify users as soon as possible of high-risk data breaches that
-              could personally affect them.
-            </p>
-          </div>
-          <!-- Modal footer -->
-          <div
-            class="flex items-center p-6 space-x-2 border-t border-gray-200 rounded-b dark:border-gray-600"
-          >
-            <button
-              type="button"
-              class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-            >
-              I accept
-            </button>
-            <button
-              type="button"
-              class="text-gray-500 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600"
-            >
-              Decline
-            </button>
-          </div>
-        </div>
+      <div class="p-3 bg-teal-300 rounded-xl w-fit">
+        <img src="" alt="" />
+        <p>project</p>
       </div>
+      <div>items</div>
+      <div>items</div>
+      <div>items</div>
+      <div>items</div>
     </div>
   </div>
 </template>
-<!-- <template>
-  <div
-    class="projects·h-96·bg-gradient-to-l·from-white·to-teal-200·rounded-2xl·px-6·py-2·dark:from-cyan-700·dark:to-cyan-900·dark:text-white·grid"
-  >
-    <h1 class="text-center pt-10 font-bold text-3xl capitalize text-white">
-      Click the project for me details
-    </h1>
 
-
-    <button
-      data-modal-target="defaultModal"
-      data-modal-toggle="defaultModal"
-      class="block text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-      type="button"
-    >
-      Toggle modal
-    </button>
-
-    <div
-      id="defaultModal"
-      tabindex="-1"
-      aria-hidden="true"
-      class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-modal md:h-full"
-    >
-      <div class="relative w-full h-full max-w-2xl md:h-auto">
-  
-        <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
-       
-          <div
-            class="flex items-start justify-between p-4 border-b rounded-t dark:border-gray-600"
-          >
-            <h3 class="text-xl font-semibold text-gray-900 dark:text-white">
-              Terms of Service
-            </h3>
-            <button
-              type="button"
-              class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white"
-              data-modal-hide="defaultModal"
-            >
-              <svg
-                aria-hidden="true"
-                class="w-5 h-5"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-                  clip-rule="evenodd"
-                ></path>
-              </svg>
-              <span class="sr-only">Close modal</span>
-            </button>
-          </div>
-      
-          <div class="p-6 space-y-6">
-            <p
-              class="text-base leading-relaxed text-gray-500 dark:text-gray-400"
-            >
-              With less than a month to go before the European Union enacts new
-              consumer privacy laws for its citizens, companies around the world
-              are updating their terms of service agreements to comply.
-            </p>
-            <p
-              class="text-base leading-relaxed text-gray-500 dark:text-gray-400"
-            >
-              The European Union’s General Data Protection Regulation (G.D.P.R.)
-              goes into effect on May 25 and is meant to ensure a common set of
-              data rights in the European Union. It requires organizations to
-              notify users as soon as possible of high-risk data breaches that
-              could personally affect them.
-            </p>
-          </div>
-    
-          <div
-            class="flex items-center p-6 space-x-2 border-t border-gray-200 rounded-b dark:border-gray-600"
-          >
-            <button
-              data-modal-hide="defaultModal"
-              type="button"
-              class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-            >
-              I accept
-            </button>
-            <button
-              data-modal-hide="defaultModal"
-              type="button"
-              class="text-gray-500 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600"
-            >
-              Decline
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</template> -->
 <script>
 export default {
   name: "projectSection",
