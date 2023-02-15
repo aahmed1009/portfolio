@@ -19,23 +19,29 @@
       <div
         class="grid gap-20 lg:grid-cols-3 md:grid-cols-3 md:mt-10 sm:m-16 max-sm:mx-10 min-w-25 sm:gap-y-12 text-center dark:text-white"
       >
-        <div class="bg-teal-500 min-h-12 rounded-lg lg:w-56 p-6">
+        <div
+          class="bg-teal-500 min-h-12 rounded-lg lg:w-56 p-6 hover:bg-teal-300 dark:hover:bg-teal-400"
+        >
           <ion-icon class="text-3xl" name="ribbon-outline"></ion-icon>
           <p class="text-2xl">Experience</p>
           <span>2+ years working</span>
         </div>
-        <div class="bg-teal-500 min-h-12 rounded-lg lg:w-56 p-6">
+        <div
+          class="bg-teal-500 min-h-12 rounded-lg lg:w-56 p-6 hover:bg-teal-300 dark:hover:bg-teal-400"
+        >
           <ion-icon class="text-3xl" name="people-outline"></ion-icon>
           <p class="text-2xl">clients</p>
           <span>10+ Worldwide</span>
         </div>
-        <div class="bg-teal-500 min-h-12 rounded-lg lg:w-56 p-6">
+        <div
+          class="bg-teal-500 min-h-12 rounded-lg lg:w-56 p-6 hover:bg-teal-300 dark:hover:bg-teal-400"
+        >
           <ion-icon class="text-3xl" name="browsers-outline"></ion-icon>
           <p class="text-2xl">projects</p>
           <span>10+ Completed</span>
         </div>
         <div
-          class="w-fit leading-6 bg-teal-500 font-3xl p-4 mt-3 lg:col-span-4 md:col-span-4 sm:col-start-1 sm:col-end-2 text-start rounded-lg dark:bg-teal-500 dark:text-white"
+          class="w-fit leading-6 font-3xl p-4 mt-3 lg:col-span-4 md:col-span-4 sm:col-start-1 sm:col-end-2 text-start rounded-lg dark:bg-gradient-to-br dark:bg-teal-900 dark:via-teal-700 dark:from-teal-400 bg-gradient-to-tr bg-teal-700 via-teal-400 from-teal-200 dark:text-white"
         >
           I am currently pursuing Bachelor Degree(Final Year) in Computer
           Science from University Of the People. I have 2+ years of work
@@ -50,7 +56,7 @@
           environment around me.
         </div>
         <div
-          class="dark:bg-teal-500 dark:text-white font-3xl p-4 mt-3 grid lg:col-span-4 md:col-span-4 text-start rounded-lg"
+          class="dark:bg-teal-500 dark:text-white font-3xl p-4 mt-3 grid lg:col-span-4 md:col-span-4 text-start rounded-lg dark:bg-gradient-to-br dark:bg-teal-900 dark:via-teal-700 dark:from-teal-400 bg-gradient-to-tr bg-teal-700 via-teal-400 from-teal-200"
         >
           <h1 class="dark:text-white text-3xl font-bold">
             Language & Framework
