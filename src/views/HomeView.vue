@@ -1,9 +1,6 @@
 <template>
   <div class="dark" id="container">
     <nav>
-      <span
-        class="text-black bg-gradient-to-r from zyan-600 to-teal-400 w-max py-4 px-3 fixed flex gap-3 rounded-2xl dark:from-cyan-700 dark:to-cyan-900 bottom-16 left-1/2 transform-gpu -translate-x-1/2 dark:text-white invisible md:invisible lg:visible"
-      ></span>
       <div
         class="bg-gradient-to-r from-cyan-500 to-teal-300 text-white w-max z-10 py-2 px-3 fixed flex gap-3 rounded-full backdrop-blur-md bottom-2 left-1/2 transform-gpu -translate-x-1/2 dark:from-cyan-700 dark:to-cyan-900"
       >
