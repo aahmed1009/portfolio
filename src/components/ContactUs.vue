@@ -1,5 +1,5 @@
 <template>
-  <div class="ContactUs min-h-[800px]">
+  <div class="ContactUs min-h-[800px]" id="contact">
     <div
       class="projects·h-96·bg-gradient-to-l·from-white·to-teal-200·rounded-2xl·px-6·py-2·dark:from-cyan-700·dark:to-cyan-900·dark:text-white·grid"
     >

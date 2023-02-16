@@ -1,5 +1,8 @@
 <template>
-  <div class="header-section text-center space-y-7 p-10 dark:text-white">
+  <div
+    class="header-section text-center space-y-7 p-10 dark:text-white"
+    id="main"
+  >
     <p class="text-xl">Hello, I'm</p>
     <h1 class="text-5xl capitalize text-teal-600 font-black">
       andrew melad dawwood

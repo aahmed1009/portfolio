@@ -1,5 +1,5 @@
 <template>
-  <div class="about-section min-h-96">
+  <div class="about-section min-h-96" id="about">
     <h1 class="text-center text-4xl capitalize text-teal-500 pb-12">
       about us
     </h1>
