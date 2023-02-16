@@ -1,6 +1,10 @@
 <template>
-  <div class="projects text-center dark:text-white pt-10 max-sm:mx-10 sm:mx-10">
+  <div
+    class="projects text-center dark:text-white pt-10 max-sm:mx-10 sm:mx-10"
+    id="projects"
+  >
     <h1 class="font-bold">What I Do</h1>
+
     <h1 class="text-5xl font-bold mb-12 text-teal-400">My Projects</h1>
 
     <div
@@ -79,11 +83,21 @@
                   </div>
                 </div>
               </div>
-              <div class="project-links col-start-1 col-end-3 mb-10 h-56">
+
+              <div
+                class="project-links mb-10 h-56 flex justify-center space-x-6 flex-start"
+              >
                 <a
                   href="#"
-                  class="bg-teal-700 text-start w-28 h-20 rounded-lg block mb-10"
-                  >github</a
+                  class="bg-teal-700 w-28 h-fit rounded-xl block py-2 px-3 text-center space-x-4"
+                >
+                  <i class="fa-brands fa-github"></i> Github</a
+                >
+                <a
+                  href="#"
+                  class="bg-teal-700 w-28 h-fit rounded-xl block py-2 px-3 text-center space-x-4"
+                >
+                  <i class="fa-solid fa-link"></i> Link</a
                 >
               </div>
               <!-- Modal footer -->
