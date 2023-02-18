@@ -1,7 +1,7 @@
 <template>
   <div class="about-section min-h-96" id="about">
     <h1 class="text-center text-4xl capitalize text-teal-500 pb-12">
-      about us
+      About Me
     </h1>
     <div
       class="grid xl:grid-cols-2-auto lg:grid-cols-2-auto gap-2 md:grid-cols-1 md:my-7"
@@ -10,7 +10,7 @@
         class="image md:mx-auto sm:mx-auto max-sm:mx-auto dark:bg-teal-600 h-72 max-sm:w-[60vw] w-72 lg:w-[20vw] rounded-lg flex justify-center flex-wrap content-center"
       >
         <img
-          src="../assets/images/WhatsApp Image 2022-11-30 at 11.45.14 AM (6).jpeg"
+          src="../assets/images/Alaa Ahmed.jpg"
           alt="image-about"
           class="h-72 w-72 lg:w-[20vw] max-sm:w-[60vw] text-center rounded-lg rotate-6 transition duration-700 ease-in-out hover:rotate-0"
         />
@@ -24,7 +24,7 @@
         >
           <ion-icon class="text-3xl" name="ribbon-outline"></ion-icon>
           <p class="text-2xl">Experience</p>
-          <span>2+ years working</span>
+          <span>1+ years working</span>
         </div>
         <div
           class="bg-teal-500 min-h-12 rounded-lg lg:w-[15vw] p-6 hover:bg-teal-300 dark:hover:bg-teal-400"
@@ -43,10 +43,20 @@
         <div
           class="w-fit leading-8 font-3xl p-4 mt-3 lg:col-span-4 md:col-span-4 sm:col-start-1 sm:col-end-2 text-start rounded-lg dark:bg-gradient-to-br dark:bg-teal-900 dark:via-teal-700 dark:from-teal-400 bg-gradient-to-tr bg-teal-700 via-teal-400 from-teal-200 dark:text-white"
         >
-          Hello Welcome to my portfolio. I hope I could be of any assistance.
-          Fresh Graduate from computer Science college who is experienced as a
-          Frontend Developer I seek to gain more practical experience. I am
-          always developing my skills so please check my latest work.
+          I Am Writing To Express My Interest In The Frontend Web Development
+          Utilizing Vue.Js. As A Highly Motivated And Passionate Individual With
+          A Strong Background In Computer Science And An Interest In Web
+          Development, I Am Confident That I Would Be A Valuable Asset To Your
+          Team. Throughout My Studies And Personal Projects, I Have Gained A
+          Solid Understanding Of Frontend Web Development And Have Been Exposed
+          To Various Technologies Such As HTML, CSS, And JavaScript. In
+          Particular, I Have Developed A Keen Interest In Vue.Js, And Have Been
+          Actively Working On Projects Utilizing This Framework. I Am Excited
+          About The Opportunity To Work With A Team Of Experienced Developers
+          And To Contribute To The Development Of Cutting-Edge Web Applications.
+          I Am Highly Adaptable And Able To Work Well Under Pressure And I Am
+          Excited About The Opportunity To Work With A Team Of Talented And
+          Experienced Developers.
         </div>
         <div
           class="dark:bg-teal-500 dark:text-white font-3xl p-4 mt-3 grid lg:col-span-4 md:col-span-4 text-start rounded-lg dark:bg-gradient-to-br dark:bg-teal-900 dark:via-teal-700 dark:from-teal-400 bg-gradient-to-tr bg-teal-700 via-teal-400 from-teal-200"
@@ -88,12 +98,10 @@ export default {
         "OOP",
         "BOM",
         "DOM",
-        "Boostrap5",
         "Tailiwind css",
         "vue.js",
         "axios",
         "vuex",
-        "c++",
       ],
     };
   },

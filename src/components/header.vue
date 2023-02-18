@@ -5,30 +5,22 @@
   >
     <p class="text-xl">Hello, I'm</p>
     <h1 class="text-5xl capitalize text-teal-600 font-black">
-      andrew melad dawwood
+      Alaa Ahmed Gamal El-Din
     </h1>
-    <h3 class="capitalize text-2xl">front end developer</h3>
+    <h3 class="capitalize text-2xl">Front End Developer</h3>
     <p class="leading-loose capitalize">
-      I hope I could be of any assistance. Fresh Graduate from computer Science
-      college who is experienced as a Frontend Developer I seek to gain more
-      practical e
+      I can utilize my strong background in computer science, solid
+      understanding of frontend web development, and experience with various web
+      technologies to contribute to the development of cutting-edge web
+      applications. I am highly motivated, passionate, and adaptable to work
+      well under pressure, and I am excited to work with a team of experienced
+      developers to gain more knowledge and skills in web development.
     </p>
     <div
       class="social-icons text-5xl cursor-pointer dark:text-teal-400 space-x-6"
     >
       <a
-        href="https://www.facebook.com/AndrewMelad70
-      "
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <ion-icon name="logo-facebook" class="dark:hover:text-teal-200"
-          >></ion-icon
-        ></a
-      >
-
-      <a
-        href="https://github.com/AndrewMelad108"
+        href="https://github.com/aahmed1009"
         target="_blank"
         rel="noopener noreferrer"
         ><ion-icon name="logo-github" class="dark:hover:text-teal-200">
@@ -36,7 +28,7 @@
       ></a>
 
       <a
-        href="https://www.linkedin.com/in/andrew-melad-b77ab3198/"
+        href="https://www.linkedin.com/in/alaa-%D9%90ahmed-6a36bb199/"
         target="_blank"
         rel="noopener noreferrer"
       >

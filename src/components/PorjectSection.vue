@@ -3,7 +3,7 @@
     class="projects text-center dark:text-white pt-10 max-sm:mx-10 sm:mx-10"
     id="projects"
   >
-    <h1 class="font-bold">What I Do</h1>
+    <h1 class="font-bold mb-4">What I Do</h1>
 
     <h1 class="text-5xl font-bold mb-12 text-teal-400">My Projects</h1>
 
@@ -11,7 +11,7 @@
       class="project-items p-12 grid lg:grid-cols-3 gap-20 md:grid-cols-2 sm:grid-cols-1 min-h-[400px] rounded-xl bg-gradient-to-tr bg-teal-600 via-teal-400 from-teal-200 dark:bg-gradient-to-tl dark:bg-teal-800 dark:via-teal-700 dark:from-teal-400"
     >
       <div
-        class="p-3 bg-teal-300 h-auto rounded-xl w-fit cursor-pointer"
+        class="p-3 bg-teal-300 h-fit rounded-xl w-fit cursor-pointer"
         v-for="project in dataInfo"
         :key="project.id"
         :data-modal-target="project.id"
@@ -102,7 +102,7 @@
                   <i class="fa-brands fa-github"></i> Github</a
                 >
                 <a
-                  :href="project.links.linkedin"
+                  :href="project.links.Link"
                   target="_blank"
                   class="bg-teal-700 w-28 h-fit rounded-xl block py-2 px-3 text-center space-x-4"
                 >

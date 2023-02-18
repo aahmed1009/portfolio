@@ -1,10 +1,10 @@
 [
   {
     "id": 1,
-    "name": "chairs company",
+    "name": "instatus",
     "image": "1-1.png",
-    "description": "using template html html5 css css3 flexbox css grid",
-    "tools": ["html", "css", "grid", "flexbox"],
+    "description": "Monitor your website and get notified instantly when your website goes down. Everything can be done in two minutes.",
+    "tools": ["html", "css", "grid", "flexbox", "Vue.js"],
     "slider": [
       "1-1.png",
       "1-2.png",
@@ -15,88 +15,11 @@
     ],
 
     "links": {
-      "github": "https://github.com/AndrewMelad108/chairs-company",
-      "linkedin": "https://www.linkedin.com/in/andrew-melad-b77ab3198/"
+      "github": "https://github.com/aahmed1009/instatus",
+      "Link": "https://aahmed1009.github.io/instatus/"
     }
   },
-  {
-    "id": 2,
-    "name": "simple design",
-    "image": "2-2.png",
-    "description": "Simple designs using html , css , boostrap",
-    "slider": ["2-1.png", "2-2.png", "2-3.png", "2-4.png", "2-5.png"],
-    "tools": ["html", "css", "boostrap"],
-    "links": {
-      "github": "https://github.com/AndrewMelad108/simple-front-end-project",
-      "linkedin": "https://www.linkedin.com/in/andrew-melad-b77ab3198/"
-    }
-  },
-  {
-    "id": 3,
-    "name": "simple design",
-    "image": "3-1.png",
-    "description": "Simple designs using html , css , wow.js , jquery , js , ES6 and boostrap",
-    "tools": ["html", "css", "boostrap", "wow.js", "js", "ES6"],
-    "slider": [
-      "3-1.png",
-      "3-2.png",
-      "3-3.png",
-      "3-4.png",
-      "3-5.png",
-      "3-6.png",
-      "3-7.png",
-      "3-8.png",
-      "3-9.png",
-      "3-10.png",
-      "3-11.png",
-      "3-12.png",
-      "3-13.png"
-    ],
-    "links": {
-      "github": "https://github.com/AndrewMelad108/simple-front-end-project",
-      "linkedin": "https://www.linkedin.com/in/andrew-melad-b77ab3198/"
-    }
-  },
-  {
-    "id": 4,
-    "name": "RestaurantSystem",
-    "image": "4-1.png",
-    "description": "A project that works on adding restaurants, making an amendment or deletion, adding types or menus to foods, and making an amendment or deletion",
-    "tools": [
-      "html",
-      "css",
-      "boostrap5",
-      "vue.js",
-      "vuex",
-      "vue-router",
-      "vueelidate",
-      "axios",
-      "json-server",
-      "sweetalert2"
-    ],
-    "slider": [
-      "4-1.png",
-      "4-2.png",
-      "4-3.png",
-      "4-4.png",
-      "4-5.png",
-      "4-6.png",
-      "4-7.png",
-      "4-8.png",
-      "4-9.png",
-      "4-10.png",
-      "4-11.png",
-      "4-12.png",
-      "4-13.png",
-      "4-14.png",
-      "4-15.png",
-      "4-16.png"
-    ],
-    "links": {
-      "github": "https://github.com/AndrewMelad108/RestaurantSystem",
-      "linkedin": "https://www.linkedin.com/in/andrew-melad-b77ab3198/"
-    }
-  },
+
   {
     "id": 5,
     "name": "tour-and-travel-website",
@@ -113,27 +36,20 @@
       "5-7.png"
     ],
     "links": {
-      "github": "https://github.com/AndrewMelad108/tour-and-travel-website",
-      "linkedin": "https://www.linkedin.com/in/andrew-melad-b77ab3198/"
+      "github": "https://github.com/aahmed1009/tour-and-travel-website",
+      "Link": ""
     }
   },
   {
     "id": 6,
     "name": "portfolio",
-    "image": "6-3.png",
+    "image": "6-1.png",
     "description": "A page that displays all information about me personally, including skills, projects, and a field in which I am experienced",
     "tools": ["vue", "tailwindcss", "json"],
-    "slider": [
-      "6-1.png",
-      "6-2.png",
-      "6-3.png",
-      "6-4.png",
-      "6-5.png",
-      "6-6.png"
-    ],
+    "slider": ["6-2.png", "6-1.png", "6-3.png", "6-4.png"],
     "links": {
-      "github": "https://github.com/AndrewMelad108/portfolio",
-      "linkedin": "https://www.linkedin.com/in/andrew-melad-b77ab3198/"
+      "github": "https://github.com/aahmed1009/portfolio",
+      "linkedin": ""
     }
   }
 ]

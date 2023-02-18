@@ -16,16 +16,16 @@
       class="from-content grid lg:grid-cols-2-auto md:grid-cols-1 max-sm:grid-cols-1 sm:mx-10 gap-20"
     >
       <div
-        class="info-content grid grid-cols-1 max-sm:mx-auto md:mx-auto sm:mx-auto text-center dark:text-white font-bold capitalize space-y-10 w-fit"
+        class="info-content grid grid-cols-1 max-sm:mx-auto md:mx-auto sm:mx-auto text-center dark:text-white font-bold space-y-10 w-fit"
       >
         <div
-          class="dark:bg-cyan-900 dark:text-white bg-teal-300 text-black rounded-lg p-6 space-y-3 text-xl shadow-xl h-44 shadow-stone-400 hover:bg-gradient-to-tr hover:bg-teal-700 hover: via-teal-500 hover:text-black"
+          class="dark:bg-cyan-900 dark:text-white bg-teal-300 text-black rounded-lg p-6 space-y-2 text-xl shadow-xl h-44 shadow-stone-400 hover:bg-gradient-to-tr hover:bg-teal-700 hover: via-teal-500 hover:text-black"
         >
           <ion-icon name="mail-outline"></ion-icon>
-          <h2 class="max-sm:text-sm">email</h2>
-          <p class="max-sm:text-sm">andrewmelad108@gmail.com</p>
+          <h2 class="max-sm:text-sm">Email</h2>
+          <p class="max-sm:text-sm">alaa.ahmedgamal10@gmail.com</p>
           <a
-            href="mailto:andrewmelad108@gmail.com"
+            href="mailto:alaa.ahmedgamal10@gmail.com"
             class="text-blue-400 font-bold"
             >Send an Email</a
           >
@@ -35,24 +35,25 @@
         >
           <ion-icon name="logo-whatsapp"></ion-icon>
           <h2 class="max-sm:text-sm">WhatsApp</h2>
-          <p class="max-sm:text-sm text-2xl">01210673776</p>
+          <p class="max-sm:text-sm text-2xl">01022096102</p>
 
           <a
-            href="https://wa.me/01210673776?text=hi"
+            href="https://wa.me/01022096102?text=hi"
             target="_blank"
             class="text-blue-400 font-bold"
             >Send a message</a
           >
         </div>
         <div
-          class="dark:bg-cyan-900 dark:text-white bg-teal-300 text-black hover:bg-gradient-to-tr hover:bg-teal-700 hover: via-teal-500 rounded-lg p-6 space-y-3 text-xl shadow-xl h-44 shadow-stone-400 hover:bg-gradient-to-tr hover:bg-teal-700 hover: via-teal-500 hover:text-black"
+          class="dark:bg-cyan-900 dark:text-white bg-teal-300 text-black hover:bg-teal-700 hover: via-teal-500 rounded-lg p-6 space-y-3 text-xl shadow-xl h-44 shadow-stone-400 hover:bg-gradient-to-tr hover:text-black"
         >
           <ion-icon name="logo-linkedin"></ion-icon>
           <h2 class="max-sm:text-sm">Linkedin</h2>
-          <p class="max-sm:text-sm">Andrew Melad</p>
+          <p class="max-sm:text-sm">Alaa Ahmed</p>
           <a
             class="text-blue-400 font-bold"
-            href="https://www.linkedin.com/in/andrew-melad-b77ab3198/"
+            href="https://www.linkedin.com/in/alaa-%D9%90ahmed-6a36bb199/"
+            target="_blank"
             >Send a message</a
           >
         </div>

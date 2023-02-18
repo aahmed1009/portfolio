@@ -54,7 +54,7 @@
         ></a>
         <a
           href="#contact"
-          class="text-gray-800 bg-white dark:text-sky-50 dark:bg-gray-800 dark:hover:text-black p-3 rounded-full flex text-xl lg:hover:bg-gradient-to-r lg:hover:from-teal-100 lg:hover:to-cyan-50 lg:hover:text-black"
+          class="p-3 rounded-full flex text-xl lg:hover:bg-gradient-to-r lg:hover:from-teal-100 lg:hover:to-cyan-50 lg:hover:text-black"
           ><svg
             stroke="currentColor"
             fill="currentColor"
