@@ -49,7 +49,19 @@
     "slider": ["6-2.png", "6-1.png", "6-3.png", "6-4.png"],
     "links": {
       "github": "https://github.com/aahmed1009/portfolio",
-      "linkedin": ""
+      "Link": ""
+    }
+  },
+  {
+    "id": 7,
+    "name": "OmniFood",
+    "image": "7-1.png",
+    "description": "A healthy meal delivered to your door, every single day",
+    "tools": ["html", "css", "js"],
+    "slider": ["7-2.png", "7-1.png", "7-3.png", "7-4.png", "7-5.png"],
+    "links": {
+      "github": "https://github.com/aahmed1009/Omnifood-Project",
+      "Link": "https://omnifoodbun.netlify.app/"
     }
   }
 ]
